@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+}
+.title{
+    font-size: 30px;
+}
+ul{
+    position: relative;  
+    left: 30px;
+}
+.reload{
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: rgba(46, 46, 99, 0.734);
+    color: white;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
